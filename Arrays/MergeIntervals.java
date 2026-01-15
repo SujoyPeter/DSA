@@ -32,8 +32,6 @@ public class MergeIntervals {
         // Convert List<int[]> to int[][]
         return merged.toArray(new int[merged.size()][]);
     }
-
-    // ✅ Main method for local testing
     public static void main(String[] args) {
 
         MergeIntervals sol = new MergeIntervals();
