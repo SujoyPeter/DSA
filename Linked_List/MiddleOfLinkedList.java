@@ -40,6 +40,6 @@ public class MiddleOfLinkedList {
         ListNode middle = sol.middleNode(head);
 
         // Print the value of the middle node
-        System.out.println("Middle Node Value: " + middle.val); // Output: 3
+        System.out.println("Middle Node Value: " + middle.val); 
     }
 }
