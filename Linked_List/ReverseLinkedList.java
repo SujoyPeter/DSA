@@ -1,16 +1,4 @@
 package Linked_List;
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    // Constructor to initialize node value
-    ListNode(int val) {
-        this.val = val;
-        this.next = null;
-    }
-}
-
 public class ReverseLinkedList {
      public ListNode reverseList(ListNode head) {
         // Initialize previous pointer to null
