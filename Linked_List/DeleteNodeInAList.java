@@ -1,9 +1,5 @@
 package Linked_List;
- class ListNode {
-     int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-  }
+
 public class DeleteNodeInAList {
     public void deleteNode(ListNode node) {
          // Copy value of next node into current node
