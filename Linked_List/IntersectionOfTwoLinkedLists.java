@@ -1,13 +1,6 @@
 package Linked_List;
+ 
 
- class ListNode {
-	      int val;
-	      ListNode next;
-	      ListNode(int x) {
-	          val = x;
-	          next = null;
-	      }
-	  }
 public class IntersectionOfTwoLinkedLists {
 	public void insertNode(ListNode head, int val) {
         ListNode newNode = new ListNode(val);
